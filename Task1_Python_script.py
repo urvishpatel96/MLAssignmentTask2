@@ -25,6 +25,7 @@ def get_page():
 		sys.exit(1)
 
 	# Code here - Call get method in requests object, pass url and collect it in res
+	##Demo Push
 	res = requests.get(url)
 	# Code ends here
 
